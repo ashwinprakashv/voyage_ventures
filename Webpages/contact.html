@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voyage Ventures</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montez&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="navbar-background"></div>
+      <nav class="nav_menu">
+        <div class="logo">
+          <a href="../index.html">
+            <img
+              class="logo"
+              src="../Images/VoyageVenturesBlack.svg"
+              alt="Nav Bar logo of Voyage Ventures."
+            />
+          </a>
+        </div>
+        <ul class="nav_links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./blogs.html">Blog</a></li>
+          <li><a href="./destination.html">Destinations</a></li>
+          <li><a id="cta_button_nav" href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="contact_hero">
+        <div class="container">
+          <h1 class="hero_heading">Let's have a talk</h1>
+          <p class="contact_hero_subheading">
+            Get in touch with us to start planning your dream vacation and
+            experience unforgettable adventures!
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact_section">
+        <div class="contact_container">
+          <div class="form_column_1">
+            <form
+              action="https://webdevbasics.net/scripts/demo.php"
+              method="post"
+              name="contact_form"
+            >
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required />
+
+              <label for="name">Subject:</label>
+              <input type="text" id="subject" name="subject" required />
+
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+
+              <label for="submit"></label>
+              <input type="submit" value="Submit" id="form_submit" />
+            </form>
+          </div>
+          <div class="address">
+            <h3 class="address_heading">Address</h3>
+            <p>1082 Wellington St W,</p>
+            <p>Ottawa, Ontario, K1Y 2Y4</p>
+
+            <h3 class="contact_heading">Contact</h3>
+            <p>+1 (234)567-8910</p>
+            <a href="mailto:contact@voyageventures.com">
+              info@voyageventures.com
+            </a>
+          </div>
+
+          <div class="map">
+            <img src="../Images/map.png" alt="Map of the location" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer_section container">
+        <div class="footer_logo">
+          <a href="../index.html">
+            <img
+              src="../Images/VoyageVenturesWhite.svg"
+              alt="Footer logo of Voyage Ventures."
+            />
+          </a>
+          <div class="social_icons">
+            <a href="#">
+              <img
+                src="../Images/facebook icon.svg"
+                alt="Facebook icon button in footer."
+              />
+            </a>
+            <a href="#">
+              <img
+                src="../Images/instagram icon.svg"
+                alt="Instagram icon button in footer."
+              />
+            </a>
+            <a href="#">
+              <img
+                src="../Images/twitter icon.svg"
+                alt="Twitter icon button in footer."
+              />
+            </a>
+          </div>
+        </div>
+        <div class="footer_links_column">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./destination.html">Destinations</a></li>
+            <li><a href="./blogs.html">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer_links_column">
+          <ul>
+            <li>
+              <a href="#">1082 Wellington St W, Ottawa, Ontario, K1Y 2Y4</a>
+            </li>
+            <li><a href="#">+1 (234)567-8910</a></li>
+            <li><a href="#">info@voyageventures.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
